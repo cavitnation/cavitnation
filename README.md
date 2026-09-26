@@ -1,58 +1,35 @@
-<h1 align="center">Hi, I'm Azeem 👋</h1>
+# Hi, I'm Azeem
 
-<p align="center">
-  <b>AI-Native Full-Stack Engineer — LLM / RAG / MCP · Payments & Backend</b><br>
-  Agentic-first with Claude Code & Antigravity · Istanbul, Türkiye · Founder, Verivello Ltd
-</p>
+**Backend engineering, AI tools and web products.** Istanbul, Türkiye · Founder, Verivello Ltd.
 
-<p align="center">
-  <a href="https://verivello.org"><img src="https://img.shields.io/badge/Live%20AI%20agent-verivello.org-6d28d9?style=for-the-badge&logo=anthropic&logoColor=white"></a>
-  <a href="https://jeemmo.com/"><img src="https://img.shields.io/badge/Website-jeemmo.com-12b76a?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/azeem-javed-7666861a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-</p>
+I build and operate backend-heavy web applications: company-research tools, public-data integrations, content pipelines and payments. I use AI coding tools while owning architecture, review, testing and deployment decisions.
 
----
+[Portfolio / Jeemmo](https://jeemmo.com/) · [Verivello](https://verivello.org/) · [LinkedIn](https://www.linkedin.com/in/azeem-javed-7666861a/)
 
-### How I work
+## Selected engineering work
 
-I work **agentic-first**: I direct AI coding agents (Claude Code, Antigravity, Cursor) to implement, while I own the architecture, the specs, the guardrails and the validation. I'm **language-agnostic** — the agents build in whatever stack the job needs, and I make sure it's correct, grounded and production-ready.
+| Project | What it demonstrates | Evidence |
+|---|---|---|
+| **[MCP UK Tools](https://github.com/cavitnation/mcp-uk-tools)** | Three UK public-data tools, server-side validation, bounded requests and calendar-aware holiday filtering | Runnable Node.js source, unit tests, stdio integration test and CI |
+| **[Verivello](https://github.com/cavitnation/verivello-architecture)** | Company research using official registers, entity verification, source citations, streamed answers and billing boundaries | Public architecture case study; product source remains private |
+| **[ArchStudent](https://github.com/cavitnation/archstudent)** | PHP content platform, reusable directory renderers, structured metadata and moderated community workflows | Public source snapshot, storage/migration tests and deployment notes |
+| **[Quran Roshni](https://github.com/cavitnation/quran-roshni)** | Server-rendered reading pages, translations, recitation UI and cached feed processing | PHP/JavaScript source, cache regressions and HTTP security tests |
 
-- 🤖 **AI / LLM product features** — RAG pipelines, LLM integration, prompt & context engineering, agentic workflows
-- 🔌 **MCP (Model Context Protocol) tool servers** — giving models grounded, source-cited access to real data → [see mcp-uk-tools ↓](https://github.com/cavitnation/mcp-uk-tools)
-- 💳 **Stripe & payment-gateway integrations** — proper webhooks and reconciliation
-- ⚡ **Real-time features** over WebSockets / SSE — live dashboards & streaming data
-- 🧩 **Backend-heavy web apps & APIs** — the data model, the queries and the infrastructure, not just the theme
+## Other products
 
----
+- [GoodPing](https://github.com/cavitnation/goodping): uptime monitoring and network tools.
+- [VaaWaa](https://github.com/cavitnation/vaawaa): news aggregation and scheduled feed processing.
+- [World Hot Springs](https://github.com/cavitnation/world-hot-springs): a directory built around Wikidata and Wikimedia sources.
+- [IntelliBookkeeping](https://github.com/cavitnation/intellibookkeeping): an accounting-software directory, comparisons and a savings calculator.
 
-### 🧠 Featured: Verivello — a live AI agent
+These four repositories are public case studies; their application source is private.
 
-**[verivello.org](https://verivello.org)** — ask any question about any UK company and get a plain-English, **source-cited** answer from official registers (Companies House, Land Registry, FCA, sanctions). Built agentic-first: multi-source data pipelines, an LLM engine grounded with verbatim tool output + entity-match verification (so it doesn't hallucinate), MCP tool servers, streaming responses, plan-based entitlements and Stripe billing. A real, operating product — not a demo.
+## How I approach the work
 
----
+I focus on the data model, external API failures, authentication, observable background jobs and repeatable deployment. For AI features, source retrieval and entity verification reduce unsupported answers; they do not guarantee perfect factual accuracy. I prefer explicit limitations and reproducible tests to absolute reliability claims.
 
-### Tech I work in
+Recent public work includes input-validation and timeout tests for MCP tools, synthetic HTTP tests for moderation authorization, and private-storage migration checks. Each repository documents what its checks cover and what still depends on production configuration.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat&logo=stripe&logoColor=white)
+**Core stack:** PHP · Node.js · JavaScript · Python · SQL · Linux · REST · SSE/WebSockets · MCP · Stripe integrations.
 
-**AI stack:** Claude Code · Antigravity · Cursor · Model Context Protocol (MCP) · RAG · LLM function/tool calling · prompt & context engineering
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=cavitnation&show_icons=true&hide_border=true&theme=tokyonight&count_private=true" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cavitnation&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" height="165">
-</p>
-
-<p align="center"><i>Open to remote AI-native engineering roles — <a href="https://www.linkedin.com/in/azeem-javed-7666861a/">let's talk</a>.</i></p>
+Open to remote backend/AI engineering roles and scoped development projects. [Contact me on LinkedIn](https://www.linkedin.com/in/azeem-javed-7666861a/) or through [Jeemmo](https://jeemmo.com/).
